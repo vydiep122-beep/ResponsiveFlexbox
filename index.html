@@ -1,0 +1,74 @@
+
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Flexbox Layout</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>Responsive Website</h1>
+            <p>Bố cục trang web bằng CSS Flexbox</p>
+        </header>
+
+        <nav class="nav">
+            <a href="#home">Trang chủ</a>
+            <a href="#news">Tin tức</a>
+            <a href="#about">Giới thiệu</a>
+            <a href="#contact">Liên hệ</a>
+        </nav>
+
+        <div class="main-container">
+            <main class="content" id="home">
+                <h2>Nội dung chính</h2>
+                <p>
+                    Đây là khu vực nội dung chính của trang web.
+                    CSS Flexbox giúp sắp xếp các phần tử linh hoạt
+                    trên nhiều kích thước màn hình.
+                </p>
+
+                <article id="news">
+                    <h3>Tin tức mới nhất</h3>
+                    <p>
+                        Cập nhật kiến thức HTML, CSS và thiết kế
+                        giao diện website responsive.
+                    </p>
+                </article>
+
+                <article id="about">
+                    <h3>Giới thiệu</h3>
+                    <p>
+                        Trang web được xây dựng để thực hành
+                        flex-direction, flex-grow, flex-wrap
+                        và Media Queries.
+                    </p>
+                </article>
+            </main>
+
+            <aside class="sidebar">
+                <h2>Sidebar</h2>
+                <h3>Danh mục</h3>
+                <ul>
+                    <li>HTML cơ bản</li>
+                    <li>CSS Flexbox</li>
+                    <li>Responsive Design</li>
+                    <li>JavaScript</li>
+                </ul>
+
+                <div class="notice">
+                    <h3>Thông báo</h3>
+                    <p>Học lập trình mỗi ngày!</p>
+                </div>
+            </aside>
+        </div>
+
+        <footer class="footer" id="contact">
+            <p>© 2026 Responsive Website</p>
+            <p>Thực hành CSS Flexbox</p>
+        </footer>
+    </div>
+</body>
+</html>
